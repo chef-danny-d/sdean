@@ -63,11 +63,21 @@ nav{
         margin-left: 10%;
         margin-right: 10%;
     }
+    #contact form, #contact input, #contact textarea, #contact button, #contact label{
+        margin: auto;
+        text-align: center;
+        width:70%;
+    }
 }
 @media screen and (max-width: 1024px) {
     #grid {
         margin-left: 0%;
         margin-right: 0%;
+    }
+    #contact form, #contact input, #contact textarea, #contact button, #contact label{
+        margin: auto;
+        text-align: center;
+        width:90%;
     }
 }
 .mod-body{
@@ -102,4 +112,37 @@ nav{
 }
 .twitter, .facebook, .email{
     transition: .5s ease;
+}
+
+#contact input, #contact textarea{
+    border-radius: 5px;
+    border-color: #333;
+    border-width: 1.5px;
+    transition: 1s ease;
+}
+#contact input:focus, #contact textarea:focus{
+    border-radius: 0px;
+    outline: 0;
+    transition: 1s ease;
+}
+
+#contact label{
+    font-weight: lighter;
+    color: #333;
+}
+#contact button{
+    border: #333 solid 1px;
+    background: rgba(0,0,0, 0.05);
+    font-weight: lighter;
+    transition: 1s ease;
+}
+#contact button:focus{
+    outline: 0px;
+}
+#contact button:hover{
+    background: rgba(0,0,0, 0.2);
+    transition: 1s ease;
+}
+#contact{
+    padding-bottom: 15%;
 }
