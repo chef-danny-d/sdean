@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800');
 html, body{
     width:100%;
     height: 100%;
@@ -34,7 +35,9 @@ nav{
 #splash{
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 5%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .3em;
 }
 .animated{
     -webkit-animation-duration: 1.3s;
@@ -72,4 +75,31 @@ nav{
 }
 #grid .modal-body{
     padding: 0;
+}
+.modal-content{
+    border-radius:0px ;
+}
+.modal-title{
+ text-align: center;
+    text-transform: uppercase;
+}
+.mod-side button{
+    width: 100%;
+    border-radius: 0px;
+    color: #111;
+}
+.twitter:hover{
+    background-color: #1dcaff;
+    transition: .5s ease;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    transition: .5s ease;
+}
+.email:hover{
+    background-color: #eea236;
+    transition: .5s ease;
+}
+.twitter, .facebook, .email{
+    transition: .5s ease;
 }
