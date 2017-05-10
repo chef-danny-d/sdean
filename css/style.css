@@ -156,7 +156,7 @@ nav{
     line-height: 1.5em;
     font-size: 16px;
 }
-#about button{
+#about a{
     border: #333 solid 1px;
     background: rgba(0,0,0, 0.05);
     transition: 1s ease;
@@ -166,10 +166,10 @@ nav{
     letter-spacing: 0.05em;
     border-radius: 0;
 }
-#about button:focus{
+#about a:focus{
     outline: 0px;
 }
-#about button:hover{
+#about a:hover{
     background: rgba(0,0,0, 0.2);
     transition: 1s ease;
 }
