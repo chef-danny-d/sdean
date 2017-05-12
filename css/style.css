@@ -39,6 +39,22 @@ nav{
     font-family: 'Raleway', sans-serif;
     letter-spacing: .3em;
 }
+#splash img{
+    width: 45%;
+    margin: auto;
+}
+@media screen and (max-width: 1024px ){
+    #splash img{
+        width: 66%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px ){
+    #splash img{
+        width: 100%;
+        margin: auto;
+    }
+}
 .animated{
     -webkit-animation-duration: 1.3s;
     animation-duration: 1.3s;
@@ -172,4 +188,7 @@ nav{
 #about a:hover{
     background: rgba(0,0,0, 0.2);
     transition: 1s ease;
+}
+.navbar-brand img{
+    width: 50%;
 }
