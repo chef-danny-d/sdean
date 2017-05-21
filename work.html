@@ -33,7 +33,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img alt="logo" src="img/SVelazquez-logo.svg" class="img-responsive"></a>
+        <a class="navbar-brand" href="index.html"><img alt="logo" src="img/SVLogo.svg" class="img-responsive"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,7 +49,7 @@
   </nav>
 
   <section class="animated fadeInDown">
-      <section class="center-block center">
+      <section class="center-block center" id="sort">
           <button class="btn btn-default" id="web">Web concepts</button>
           <button class="btn btn-default" id="video">Video</button>
           <button class="btn btn-default" id="graphics">Graphics</button>
@@ -57,33 +57,62 @@
     <div class="row" id="grid"><!--grid start-->
 
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--first grid image start-->
-        <button type="button" class="mod" data-toggle="modal" data-target="#Modal1"><img src="http://placehold.it/1921x1080"></button>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graphics"><!--first grid image start-->
+        <button type="button" class="mod" data-toggle="modal" id="origin" data-target="#Modal1"><img src="img/ORIGIN/Origin%20Final%20LOGO.svg"></button>
       </div><!--first grid image end-->
 
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graphics"><!--second grid image start-->
-        <button type="button" class="mod" data-toggle="modal" data-target="#Modal2"><img src="http://placehold.it/1922x1080"></button>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graphics" id="outbg"><!--second grid image start-->
+        <button type="button" class="mod" data-toggle="modal" id="out-img" data-target="#Modal2"><img src="img/OUT/logo.png"></button>
       </div><!--second grid image end-->
 
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 video"><!--third grid image start-->
-        <button type="button" class="mod" data-toggle="modal" data-target="#Modal3"><img src="http://placehold.it/1923x1080"></button>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graphics" id="sabor"><!--third grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal3"><img src="img/Sabor/final-logo-Sabor.png"></button>
       </div><!--third grid image end-->
 
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 video"><!--fourth grid image start-->
-        <button type="button" class="mod" data-toggle="modal" data-target="#Modal4"><img src="http://placehold.it/1924x1080"></button>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web" id="tetra"><!--fourth grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal4"><img src="img/Tetra/logo.png"></button>
       </div><!--fourth grid image end-->
 
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--fifth grid image start-->
-        <button type="button" class="mod" data-toggle="modal" data-target="#Modal5"><img src="http://placehold.it/1925x1080"></button>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graphics video"><!--fifth grid image start-->
+        <button type="button" class="mod" data-toggle="modal" id="ua" data-target="#Modal5"><img src="img/UA/3Under-Armour-Logo.png"></button>
       </div><!--fifth grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web" id="basil"><!--six grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal6"><img style="width: 50% !important;" src="img/Basil/Logo-Final.png"></button>
+      </div><!--six grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web" id="embark"><!--seven grid image start-->
+        <button type="button" class="mod" data-toggle="modal" id="embark-img" data-target="#Modal7"><img style="width: 50% !important;" src="img/Embark/embark%20white%20logo.png"></button>
+      </div><!--seven grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web" id="academic"><!--eight grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal8"><img src="img/Academic/logo.png"></button>
+      </div><!--eight grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--nine grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal5"><img src="http://placehold.it/1925x1080"></button>
+      </div><!--nine grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--ten grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal5"><img src="http://placehold.it/1925x1080"></button>
+      </div><!--ten grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--eleven grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal5"><img src="http://placehold.it/1925x1080"></button>
+      </div><!--eleven grid image end-->
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 web"><!--twelve grid image start-->
+        <button type="button" class="mod" data-toggle="modal" data-target="#Modal5"><img src="http://placehold.it/1925x1080"></button>
+      </div><!--twelve grid image end-->
+
     </div><!--grid end-->
   </section><!--section ending-->
 
-  <!-- Modal 1 -->
+  <!-- ORIGIN Modal -->
   <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -97,94 +126,179 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
-              <button class="btn btn-default">View</button>
+              <a href="origin.html" class="btn btn-default">View</a>
               <hr>
-              <button class="btn btn-default twitter">Twitter</button>
-              <button class="btn btn-default facebook">Facebook</button>
-              <button class="btn btn-default email">Email</button>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div><!--modal 1 end-->
+  </div><!-- ORIGIN modal end-->
 
-  <!-- Modal 2-->
+
+
+  <!-- OUT Modal -->
   <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <h4 class="modal-title">OUT</h4>
         </div>
         <div class="modal-body">
-          this is the body
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a href="out.html" class="btn btn-default">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div><!--modal 2 end-->
+  </div><!-- OUT modal end-->
 
-  <!-- Modal 3-->
+  <!-- Sabor Modal -->
   <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <h4 class="modal-title">SABOR</h4>
         </div>
         <div class="modal-body">
-          this is the body
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a href="sabor.html" class="btn btn-default">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div><!--modal 3 end-->
+  </div><!-- Sabor modal end-->
 
-  <!-- Modal 4-->
+  <!-- Tetra Modal -->
   <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <h4 class="modal-title">Tetra</h4>
         </div>
         <div class="modal-body">
-          this is the body
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a class="btn btn-default" target="_blank" href="img/Tetra/Tetra/index.html">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div><!--modal 4 end-->
+  </div><!-- Tetra modal end-->
 
-  <!-- Modal 5-->
+  <!-- UA Modal -->
   <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <h4 class="modal-title">Under Armor</h4>
         </div>
         <div class="modal-body">
-          this is the body
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a class="btn btn-default" href="ua.html">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div><!--modal 5 end-->
+  </div><!-- UA modal end-->
 
+  <!-- Basil Modal -->
+  <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Basil</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a class="btn btn-default" href="basil.html">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- Basil modal end-->
+
+  <!-- Embark Modal -->
+  <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Embark</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 mod-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue risus arcu, id feugiat dui lacinia vel. Quisque bibendum elit nibh, sed porta lectus scelerisque et. Morbi dictum orci et vestibulum semper. Praesent ornare sem eget magna semper efficitur. Nam iaculis rutrum aliquet. Nulla feugiat urna dolor, in luctus velit porta non. Quisque libero sem, pharetra in magna ac, dignissim commodo sapien.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mod-side">
+              <a class="btn btn-default" href="embark.html">View</a>
+              <hr>
+              <a class="btn btn-default twitter">Twitter</a>
+              <a class="btn btn-default facebook">Facebook</a>
+              <a class="btn btn-default email">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- Embark modal end-->
+
+    <footer>
+      <p class="center center-block">Created by <a target="_blank" href="https://github.com/chef-danny-d" >Daniel Papp</a></p>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

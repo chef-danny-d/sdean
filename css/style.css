@@ -40,7 +40,7 @@ nav{
     letter-spacing: .3em;
 }
 #splash img{
-    width: 45%;
+    width: 30%;
     margin: auto;
 }
 @media screen and (max-width: 1024px ){
@@ -60,7 +60,7 @@ nav{
     animation-duration: 1.3s;
 }
 #grid img{
-    width: 100%;
+    //width: 100%;
     overflow: hidden;
     padding: 15px;
 }
@@ -109,7 +109,7 @@ nav{
  text-align: center;
     text-transform: uppercase;
 }
-.mod-side button{
+.mod-side a{
     width: 100%;
     border-radius: 0px;
     color: #111;
@@ -191,4 +191,142 @@ nav{
 }
 .navbar-brand img{
     width: 50%;
+}
+.navbar-brand{
+    padding-top: 0px;
+}
+#sort{
+    margin-bottom: 45px;
+}
+#sort button{
+    text-transform: uppercase;
+    border-color: transparent;
+    border-width: 0px;
+    transition: 1s ease;
+    background-color: transparent;
+    border-radius: 0px;
+}
+#sort button:hover{
+    background-color: transparent;
+    border-bottom: solid 1px #333;
+    transition: 1s ease;
+}
+#grid .web, #grid .video, #grid .graphics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    border-top: 1px solid #888888 ;
+    width: 75%;
+    padding-top: 5px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.img-p img{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.mod{
+    overflow: hidden;
+    height: 50vh;
+}
+.panel-default{
+    border: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.panel-default>.panel-heading{
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+.panel-default>.panel-heading a{
+    font-weight: 300;
+    border: none;
+    //transition: 1.5s ease;
+}
+.panel-default>.panel-heading a:hover{
+    border-bottom: 1px solid #333;
+    //transition: 1.5s ease;
+    text-decoration: none;
+}
+.panel-default>.panel-heading a:visited, .panel-default>.panel-heading a:focus{
+    text-decoration: none;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border-top: none;
+}
+#ua img{
+    width: 50%;
+}
+button:focus, button:active{
+    border: none;
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#embark img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+#embark-img img{
+    width: 50%;
+}
+#ua-vid{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#out-img{
+    width: 60%;
+}
+#grid button img {
+    width: 75% !important;
+}
+#grid button {
+    width: 100% !important;
+}
+#grid div{
+    padding-left: 0;
+    padding-right: 0;
+}
+#origin{
+    background-color: #e1e1e1;
+}
+#outbg{
+    background-color: #1e1e1d;
+}
+#sabor{
+    background-color: rgba(35,207,233,0.3);
+}
+#tetra{
+    background-color: #21205f;
+}
+#basil{
+    background-color: #a85d5b;
+}
+#ua{
+    background-color: #ed1c24;
+}
+#embark{
+    background-color: #61cef3;
+}
+#academic{
+    background-color: rgba(242,98,76,0.3);
 }
