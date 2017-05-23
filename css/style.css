@@ -9,7 +9,7 @@ body {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 nav{
-    padding: 10vmin 1rem;
+    padding: 10vmin 0em;
 }
 .nav li{
     font-size: 16px;
@@ -83,6 +83,7 @@ nav{
         margin: auto;
         text-align: center;
         width:70%;
+        resize: none;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -296,7 +297,7 @@ button:focus, button:active{
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-#embark img{
+#embarkimg img{
     width: 50%;
     display: block;
     margin: auto;
@@ -369,4 +370,18 @@ button:focus, button:active{
 }
 #one{
     background-color: #BDC8D0;
+}
+#academic-p p{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+#academic-p a{
+    color: #7F7F7F;
+    text-decoration: none;
+    transition: 1.5s ease;
+}
+#academic-p a:hover{
+    transition: 1.5s ease;
+    border-bottom: #7F7F7F solid 1px;
 }
