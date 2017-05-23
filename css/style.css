@@ -330,3 +330,28 @@ button:focus, button:active{
 #academic{
     background-color: rgba(242,98,76,0.3);
 }
+#flow{
+    background-color: #2f6093;
+}
+#jetty{
+    background-color: #2ec4f0;
+}
+#xavier{
+    background: #40435a; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #40435a 0%, #2d303f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #40435a 0%,#2d303f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #40435a 0%,#2d303f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40435a', endColorstr='#2d303f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.xavier-sm{
+    width: 60% !important;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 990px) and (min-width: 600px){
+
+}
+#one{
+    background-color: #BDC8D0;
+}
