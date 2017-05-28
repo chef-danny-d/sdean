@@ -115,22 +115,6 @@ nav{
     border-radius: 0px;
     color: #111;
 }
-.twitter:hover{
-    background-color: #1dcaff;
-    transition: .5s ease;
-}
-.facebook:hover{
-    background-color: #3b5998;
-    transition: .5s ease;
-}
-.email:hover{
-    background-color: #eea236;
-    transition: .5s ease;
-}
-.twitter, .facebook, .email{
-    transition: .5s ease;
-}
-
 #contact input, #contact textarea{
     border-radius: 5px;
     border-color: #333;
@@ -240,6 +224,14 @@ footer{
         top: 90vh;
         display: flex;
         position: fixed;
+    }
+    .twitter, .facebook, .email{
+        margin: 5px 0px;
+    }
+}
+@media screen and (max-width: 991px){
+    .mod-body {
+        border-right: 0px transparent;
     }
 }
 footer p{
@@ -555,7 +547,7 @@ button:focus, button:active{
     width: 66%;
     height: initial;
     top: 20%;
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 #cf-form{
     visibility: hidden !important;
@@ -607,4 +599,16 @@ em:after {
 }
 #grid button{
     cursor: hand;
+}
+cf-chat-response.user text{
+    background-color: #888 !important;
+    color: #1e1e1d !important;
+}
+cf-chat-response text{
+    background-color: #f7f7f7 !important;
+    color: #777 !important;
+}
+.facebook{
+    border-radius: 0;
+    width: 100%;
 }
