@@ -174,20 +174,22 @@ nav{
     font-size: 16px;
 }
 #about a{
-    border: #333 solid 1px;
-    background: rgba(0,0,0, 0.05);
+    border: rgba(136,136,136, 0.5) solid 1px;
+    background: transparent;
     transition: 1s ease;
-    color: #000;
-    padding: 5px 35px;
-    font-size: 75%;
-    letter-spacing: 0.05em;
+    color: #777;
+    padding: 5px 20px;
+    font-size: 0.65em;
+    letter-spacing: 0.1em;
     border-radius: 0;
+    font-weight: 300;
+    width: initial;
 }
 #about a:focus{
     outline: 0px;
 }
 #about a:hover{
-    background: rgba(0,0,0, 0.2);
+    background: rgba(136,136,136, 0.15);
     transition: 1s ease;
 }
 .navbar-brand img{
@@ -218,10 +220,10 @@ nav{
     align-items: center;
 }
 footer{
-    border-top: 1px solid #888888 ;
+    border-top: 1px solid rgba(136,136,136, 0.3);
     width: 75%;
     padding-top: 5px;
-    margin-top: 5%;
+    margin-top: 65vh;
     margin-left: auto;
     margin-right: auto;
     top: 100vh;
@@ -313,7 +315,7 @@ button:focus, button:active{
     width: 60%;
 }
 #grid button img {
-    width: 75% !important;
+    width: 75%;
 }
 #grid button {
     width: 100% !important;
@@ -324,6 +326,76 @@ button:focus, button:active{
 }
 #origin{
     background-color: #e1e1e1;
+    background-image: url("../img/ORIGIN/Origin Final LOGO.svg");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#out-img{
+    background-image: url("../img/OUT/logo.png");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#sabor{
+    background-image: url("../img/Sabor/final-logo-Sabor.png");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#tetra{
+    background-image: url("../img/Tetra/logo.png");
+    background-position: center center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+}
+#ua{
+    background-image: url("../img/UA/3Under-Armour-Logo.png");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#basil{
+    background-image: url("../img/Basil/Logo-Final.png");
+    background-position: center center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+#embark{
+    background-image: url("../img/Embark/embark white logo.png");
+    background-position: center center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+#academic{
+    background-image: url("../img/ACADEMIC-DESIGN/ACADEMIC-DESIGN-LOGO.png");
+    background-position: center center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+#flow{
+    background-image: url("../img/FLOW/LOGO-flow-home-graphic-Black-white.png");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#jetty{
+    background-image: url("../img/JETTY/OPTIMIZED/Jetty-Logo.png");
+    background-position: center center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+#xavier{
+    background-image: url("../img/XAVIER/Optimized/XAVIER-LOGO.png");
+    background-position: center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#one{
+    background-image: url("../img/ONE/OPTIMIZED/LOGO-BW.png");
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 #outbg{
     background-color: #1e1e1d;
@@ -353,10 +425,7 @@ button:focus, button:active{
     background-color: #2ec4f0;
 }
 #xavier{
-    background: #40435a; /* Old browsers */
-    background: -moz-linear-gradient(45deg,  #40435a 0%, #2d303f 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg,  #40435a 0%,#2d303f 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg,  #40435a 0%,#2d303f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: #40435a; /* Old browsers */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40435a', endColorstr='#2d303f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
@@ -384,4 +453,158 @@ button:focus, button:active{
 #academic-p a:hover{
     transition: 1.5s ease;
     border-bottom: #7F7F7F solid 1px;
+}
+#top{
+    position: fixed;
+    right: 8vw;
+    top: 90vh;
+    padding: 0.5% 1%;
+    border-bottom: transparent solid 0.05em;
+    transition: 1s ease;
+}
+#top:hover{
+    border-bottom: rgba(136,136,136, 0.5) solid 0.05em;
+    transition: 1s ease;
+}
+#top a:hover{
+    text-decoration: none;
+}
+#top a i{
+    color: #777;
+    text-decoration: none;
+}
+#back{
+    float: right;
+}
+#back a{
+    color: #7F7F7F;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+}
+#back a:hover i{
+    padding-right: 5px;
+    transition: 0.5s ease;
+}
+:focus{
+    outline: 0;
+}
+#cop{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-style: normal;
+}
+#cop i{
+    margin-right: 5px;
+    font-size: 10px;
+    padding-bottom: 0.5em;
+}
+#cred{
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 100%;
+    float: left;
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    font-style: normal;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline: none;
+}
+.navbar-brand img{
+    z-index: 9999;
+}
+.modal-content{
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+.desc{
+    font-size: 14px;
+}
+.mod-body p:nth-child(1){
+    font-size: inherit;
+}
+
+#disc{
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    font-style: normal;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    top: 65vh;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+#conversational-form{
+    width: 66%;
+    height: initial;
+    top: 20%;
+    margin-top: 20vh;
+}
+#cf-form{
+    visibility: hidden !important;
+}
+@media screen and (max-width: 950px){
+    #conversational-form{
+        width: 100%;
+    }
+}
+#contact-head{
+    color: #777;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    z-index: 999999;
+    text-transform: uppercase;
+}
+#contact{
+    padding-bottom: 0;
+}
+#ua img{
+    width: 50% !important;
+}
+#about em{
+    line-height: 1.8em;
+    letter-spacing: 0.15em;
+    font-weight: 100;
+    font-size: 16px;
+}
+em:before {
+    content: "\201C";
+    font-size: 5em;
+    font-weight: 900;
+    font-style: normal;
+    color: #777;
+    position: relative;
+}
+em:after {
+    content: "\201D";
+    font-size: 5em;
+    font-weight: 900;
+    font-style: normal;
+    color: #777;
+    position: relative;
+    padding-left: 0.2em;
+}
+#grid button{
+    cursor: hand;
 }
