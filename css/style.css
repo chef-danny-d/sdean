@@ -85,6 +85,9 @@ nav{
         width:70%;
         resize: none;
     }
+    em:after {
+        padding-left: 0.3em !important;
+    }
 }
 @media screen and (max-width: 1024px) {
     #grid {
@@ -444,7 +447,8 @@ button:focus, button:active{
 }
 #academic-p a:hover{
     transition: 1.5s ease;
-    border-bottom: #7F7F7F solid 1px;
+    border-bottom: rgba(136,136,136, 0.5) solid 0.05em;
+    text-decoration: none;
 }
 #top{
     position: fixed;
@@ -476,6 +480,15 @@ button:focus, button:active{
     letter-spacing: .02em;
     font-weight: 300;
     font-style: normal;
+    transition: 0.5s ease;
+}
+#back a:hover{
+    transition: 0.5s ease;
+    border-bottom: 0;
+    text-decoration: none;
+}
+#back a i{
+    transition: 0.5s ease;
 }
 #back a:hover i{
     padding-right: 5px;
@@ -611,4 +624,9 @@ cf-chat-response text{
 .facebook{
     border-radius: 0;
     width: 100%;
+}
+@media screen and (max-width: 995px){
+    em:after {
+        line-height: 0.8;
+    }
 }

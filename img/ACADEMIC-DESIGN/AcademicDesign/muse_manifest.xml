@@ -1,8 +1,8 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="adesign.com" resolutions="1x" timestamp="1495550841431">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="adesigns.com" resolutions="1x" timestamp="1496099180384">
   <folder name="css">
     <file name="site_global.css" crc="3999389249"/>
-    <file name="index.css" crc="1832010" ref="index"/>
-    <file name="nomq_index.css" crc="4112808682" ref="index"/>
+    <file name="index.css" crc="17608277" ref="index"/>
+    <file name="nomq_index.css" crc="3842713167" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -20,7 +20,7 @@
     <file name="form_check.php" crc="3841221102" ref="index"/>
     <file name="form_throttle.php" crc="4048049783" ref="index"/>
     <file name="form_process.php" crc="3899230280" ref="index"/>
-    <file name="form-u5445.php" crc="4048437521" ref="index"/>
+    <file name="form-u5445.php" crc="166952484" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
@@ -40,6 +40,12 @@
     <file name="u141_states-r.png" crc="4002666777" ref="index"/>
     <file name="u552-4.png" crc="471842654" ref="index"/>
     <file name="u608-7.png" crc="516733828" ref="index"/>
+    <file name="u27215-4.png" crc="243955759" ref="index"/>
+    <file name="u27237-4.png" crc="226295731" ref="index"/>
+    <file name="u27282-4.png" crc="3850219942" ref="index"/>
+    <file name="u27554-4.png" crc="488396840" ref="index"/>
+    <file name="u27547-4.png" crc="3769765599" ref="index"/>
+    <file name="u27540-4.png" crc="27525137" ref="index"/>
     <file name="image_bg_1.jpg" crc="4138216984" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -54,20 +60,8 @@
     <file name="web-designers-bangalore.jpg" crc="3824416115" ref="index">
       <caption webpage="index" alt="Art Director"/>
     </file>
-    <file name="graphic-design-chesapeake-va-u1704-fr.jpg" crc="3887265419" ref="index">
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-    </file>
-    <file name="graphic-design-chesapeake-va-u1704-fr2.jpg" crc="16467821" ref="index">
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-      <caption webpage="index" alt="Art Director"/>
-    </file>
+    <file name="graphic-design-chesapeake-va-u1704-fr-u1968-4-r-fr.jpg" crc="3887265419" ref="index"/>
+    <file name="graphic-design-chesapeake-va-u1704-fr2-u1968-4-m-fr.jpg" crc="16467821" ref="index"/>
     <file name="planning a new construction .jpg" crc="391327385" ref="index">
       <caption webpage="index" alt="Art Director"/>
       <caption webpage="index" alt="Art Director"/>
@@ -191,7 +185,13 @@
     <file name="u141_states-r2.png" crc="4002666777" ref="index"/>
     <file name="u552-42.png" crc="4046920700" ref="index"/>
     <file name="u608-72.png" crc="516733828" ref="index"/>
-    <file name="graphic-design-chesapeake-va-u1704-fr3.jpg" crc="423824563" ref="index"/>
+    <file name="u27215-42.png" crc="243955759" ref="index"/>
+    <file name="u27237-42.png" crc="226295731" ref="index"/>
+    <file name="u27282-42.png" crc="3850219942" ref="index"/>
+    <file name="u27554-42.png" crc="116200994" ref="index"/>
+    <file name="u27547-42.png" crc="3769765599" ref="index"/>
+    <file name="u27540-42.png" crc="3820902694" ref="index"/>
+    <file name="graphic-design-chesapeake-va-u1704-fr.jpg" crc="423824563" ref="index"/>
     <file name="team3.jpg" crc="101919429" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -238,8 +238,14 @@
     <file name="u141_states-r3.png" crc="4002666777" ref="index"/>
     <file name="u552-43.png" crc="4086737486" ref="index"/>
     <file name="u608-73.png" crc="516733828" ref="index"/>
+    <file name="u27215-43.png" crc="243955759" ref="index"/>
+    <file name="u27282-43.png" crc="3850219942" ref="index"/>
+    <file name="u27237-43.png" crc="226295731" ref="index"/>
+    <file name="u27554-43.png" crc="488396840" ref="index"/>
+    <file name="u27547-43.png" crc="3769765599" ref="index"/>
+    <file name="u27540-43.png" crc="3820902694" ref="index"/>
     <file name="image_bg_1-u686-fr.jpg" crc="4083533762" ref="index"/>
-    <file name="graphic-design-chesapeake-va-u1704-fr4.jpg" crc="4281642888" ref="index"/>
+    <file name="graphic-design-chesapeake-va-u1704-fr2.jpg" crc="4281642888" ref="index"/>
     <file name="marmot-crop-u38493.jpg" crc="3905412181" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -280,12 +286,18 @@
     <file name="u5729-44.png" crc="4031219253" ref="index"/>
     <file name="u5682-54.png" crc="4232007544" ref="index"/>
     <file name="u5678-44.png" crc="2209818" ref="index"/>
-    <file name="u141_states4.png" crc="4185947911" ref="index"/>
-    <file name="u141_states-r4.png" crc="502817048" ref="index"/>
+    <file name="u141_states4.png" crc="3975867465" ref="index"/>
+    <file name="u141_states-r4.png" crc="4259528745" ref="index"/>
     <file name="u552-44.png" crc="14140550" ref="index"/>
     <file name="u608-74.png" crc="4048803830" ref="index"/>
+    <file name="u27215-44.png" crc="243955759" ref="index"/>
+    <file name="u27237-44.png" crc="226295731" ref="index"/>
+    <file name="u27282-44.png" crc="3850219942" ref="index"/>
+    <file name="u27554-44.png" crc="274458269" ref="index"/>
+    <file name="u27547-44.png" crc="364696444" ref="index"/>
+    <file name="u27540-44.png" crc="34778261" ref="index"/>
     <file name="image_bg_1-u686-fr2.jpg" crc="429451447" ref="index"/>
-    <file name="graphic-design-chesapeake-va-u1704-fr5.jpg" crc="489299254" ref="index"/>
+    <file name="graphic-design-chesapeake-va-u1704-fr3.jpg" crc="489299254" ref="index"/>
     <file name="u2019-44.png" crc="4065797236" ref="index"/>
     <file name="marmot-crop-u38494.jpg" crc="3905412181" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -318,18 +330,24 @@
     <file name="u5729-45.png" crc="320144013" ref="index"/>
     <file name="u5682-55.png" crc="4232007544" ref="index"/>
     <file name="u5678-45.png" crc="2209818" ref="index"/>
+    <file name="u141_states5.png" crc="394808638" ref="index"/>
+    <file name="u141_states-r5.png" crc="501227698" ref="index"/>
     <file name="u13525-4.png" crc="290389695" ref="index"/>
-    <file name="u13528.png" crc="4091947715" ref="index"/>
+    <file name="u13528.png" crc="4120561475" ref="index"/>
     <file name="u13528-a.png" crc="4120561475" ref="index"/>
-    <file name="u141_states5.png" crc="3871898520" ref="index"/>
-    <file name="u141_states-r5.png" crc="4089006337" ref="index"/>
     <file name="u552-45.png" crc="3938580625" ref="index"/>
     <file name="u608-75.png" crc="4146296348" ref="index"/>
+    <file name="u27215-45.png" crc="243955759" ref="index"/>
+    <file name="u27237-45.png" crc="226295731" ref="index"/>
+    <file name="u27282-45.png" crc="3850219942" ref="index"/>
+    <file name="u27554-45.png" crc="4064277952" ref="index"/>
+    <file name="u27547-45.png" crc="33630415" ref="index"/>
+    <file name="u27540-45.png" crc="4144372077" ref="index"/>
     <file name="u2019-45.png" crc="372216849" ref="index"/>
-    <file name="pexels-photo-401107-u4464-fr4.jpg" crc="3780339089" ref="index"/>
+    <file name="pexels-photo-401107-u4464-fr4.jpg" crc="69434424" ref="index"/>
     <file name="u4479-45.png" crc="4086663023" ref="index"/>
     <file name="u11764-45.png" crc="160963692" ref="index"/>
     <file name="u8742-45.png" crc="3874307800" ref="index"/>
   </folder>
-  <file name="index.html" crc="4230867840" seo="true" mt="1495550818485" redirect="true"/>
+  <file name="index.html" crc="174815902" seo="true" mt="1496099104261" redirect="true"/>
 </manifest>
