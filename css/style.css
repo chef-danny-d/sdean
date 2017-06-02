@@ -335,19 +335,19 @@ button:focus, button:active{
 #sabor{
     background-image: url("../img/Sabor/final-logo-Sabor.png");
     background-position: center center;
-    background-size: 55%;
+    background-size: 60%;
     background-repeat: no-repeat;
 }
 #tetra{
     background-image: url("../img/Tetra/logo.png");
     background-position: center center;
-    background-size: 65%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 #ua{
     background-image: url("../img/UA/3Under-Armour-Logo.png");
     background-position: center center;
-    background-size: 55%;
+    background-size: 45%;
     background-repeat: no-repeat;
 }
 #basil{
@@ -365,7 +365,7 @@ button:focus, button:active{
 #academic{
     background-image: url("../img/ACADEMIC-DESIGN/ACADEMIC-DESIGN-LOGO.png");
     background-position: center center;
-    background-size: 45%;
+    background-size: 55%;
     background-repeat: no-repeat;
 }
 #flow{
@@ -585,7 +585,7 @@ button:focus, button:active{
     padding-bottom: 0;
 }
 #ua img{
-    width: 50% !important;
+    width: 40% !important;
 }
 #about em{
     line-height: 1.8em;
@@ -611,7 +611,7 @@ em:after {
     padding-left: 0.2em;
 }
 #grid button{
-    cursor: hand;
+    cursor: pointer;
 }
 cf-chat-response.user text{
     background-color: #888 !important;
