@@ -389,7 +389,7 @@ button:focus, button:active{
 #one{
     background-image: url("../img/ONE/OPTIMIZED/LOGO-BW.png");
     background-position: center center;
-    background-size: 50%;
+    background-size: 15%;
     background-repeat: no-repeat;
 }
 #outbg{
